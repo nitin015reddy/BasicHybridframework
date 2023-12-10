@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-02T11:14:11 IST" name="Default suite" finished-at="2023-12-02T11:14:54 IST" duration-ms="42237">
+    <groups>
+    </groups>
+    <test started-at="2023-12-02T11:14:11 IST" name="Default test" finished-at="2023-12-02T11:14:54 IST" duration-ms="42237">
+      <class name="com.selenium.testsuites.S10_44AdministratorCertifications">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.selenium.testsuites.S10_44AdministratorCertifications@3d6f0054]" started-at="2023-12-02T11:14:11 IST" name="launchApplication" finished-at="2023-12-02T11:14:15 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AdminCert()[pri:0, instance:com.selenium.testsuites.S10_44AdministratorCertifications@3d6f0054]" started-at="2023-12-02T11:14:15 IST" name="AdminCert" finished-at="2023-12-02T11:14:53 IST" duration-ms="38480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminCert -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.testsuites.S10_44AdministratorCertifications@3d6f0054]" started-at="2023-12-02T11:14:53 IST" name="screenshot" finished-at="2023-12-02T11:14:54 IST" duration-ms="488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdminCert status=SUCCESS method=S10_44AdministratorCertifications.AdminCert()[pri:0, instance:com.selenium.testsuites.S10_44AdministratorCertifications@3d6f0054] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- com.selenium.testsuites.S10_44AdministratorCertifications -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
